@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 80%;
+  height: 50px;
+  border-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
+  padding-left: 25px;
+}
+a {
+  font-size: 2rem;
+  color: black;
+  text-decoration: none;
+}
+.fa-soap {
+  color: purple;
+  font-size: 50px;
+}
+.home {
+  color: blue;
+  text-decoration: underline;
+}
+.button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+section {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.div {
+  width: 80%;
+  height: 100%;
+  background-image: linear-gradient(to right, blue, purple);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trusted {
+  margin-top: 50px;
+  font-size: 5rem;
+}
+.box {
+  width: 500px;
+  height: 75%;
+  /* background-color: burlywood; */
+}
+.boxx {
+  width: 500px;
+  height: 75%;
+  /* background-color: burlywood; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.but {
+  margin-top: 30px;
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+}
+.boy {
+  width: 80%;
+  height: 70%;
+  background-color: blue;
+  border-radius: 50%;
+}
+.boyy {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.hhh {
+  width: 100%;
+  height: 40vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+.nah {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reh {
+  font-size: 2.3rem;
+}
+.fan {
+  width: 300px;
+  height: 90%;
+  background-color: hsl(0, 0%, 80%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+}
+.id {
+  background-color: hsl(0, 0%, 90%);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.fa-book {
+  font-size: 2.5rem;
+}
+.fa-message {
+  font-size: 2.5rem;
+}
+.fa-face-smile {
+  font-size: 2.5rem;
+}
+.fifty {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.book {
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+.loo {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+}
+.aoo {
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: black;
+  margin-bottom: 24px;
+}
+.aoo:active {
+  background-color: red;
+}
+.moo {
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 24px;
+}
+.moo:active {
+  background-color: red;
+}
+.mac {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mec {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ded {
+  width: 700px;
+  height: 400px;
+  background-color: black;
+}
+.med {
+  width: 610px;
+  height: 300px;
+  background-color: darkblue;
+}
+.bbb {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.us {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we {
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  transform: translateY(-35px);
+}
+.lorem {
+  transform: translateY(-35px);
+}
+.lor {
+  transform: translateY(-20px);
+}
+#suit {
+  margin-top: -90px;
+  width: 202vh;
+  height: 100px;
+  background-color: hsl(0, 0%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#suii {
+  
+  width: 202vh;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.ara {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.couch {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+.piano {
+  width: 90%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.res {
+  width: 250px;
+  height: 90%;
+  background-color: burlywood;
+  border-radius: 30px;
+}
+.tes {
+  width: 250px;
+  height: 90%;
+  background-color: darkblue;
+  border-radius: 30px;
+}
+
+.fa-pump-soap {
+  font-size: 2.5rem;
+}
+.fa-jug-detergent {
+  font-size: 2.5rem;
+}
+.fa-spray-can-sparkles {
+  font-size: 2.5rem;
+}
+.fa-airbnb {
+  font-size: 2.5rem;
+}
+.reg {
+  font-size: 3rem;
+}
+.start {
+  font-size: 1.5rem;
+}
+.idea {
+  margin-top: 10px;
+}
+.loo {
+  background-color: white;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+}
+.loo:active {
+  background-color: red;
+}
+.rem {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.loo {
+  background-color: black;
+  width: 140px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+}
+.loo:active {
+  background-color: red;
+}
+.how {
+  font-size: 3rem;
+}
+.rome {
+  background-color: hsl(0, 0%, 80%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.fa-house {
+  font-size: 2rem;
+}
+.fa-hands-bubbles {
+  font-size: 2rem;
+}
+.fa-calendar-days {
+  font-size: 2rem;
+}
+.cord {
+  display: flex;
+  align-items: center;
+}
+.cor {
+  display: flex;
+  align-items: center;
+}
+.cheese {
+  width: 100%;
+  height: 80vh;
+  background-color:white;
+}
+.wrap {
+  width: 80%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.marca {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.test {
+  font-size: 2rem;
+}
+.client {
+  font-size: 4rem;
+}
+.fa-star {
+  color: yellow;
+}
+.degree {
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.dolorem {
+  font-weight: 800;
+  font-size: 3rem;
+}
+.king {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: aqua;
+  height: 30vh;
+  width: 100%;
+}
+.blink {
+  font-size: 2rem;
+}
+.pale {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+}
+.yan {
+  background-color: red;
+}
+.road {
+  width: 100%;
+  height: 100%;
+  gap: 10px;
+}
+.rontainer {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.alt {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
